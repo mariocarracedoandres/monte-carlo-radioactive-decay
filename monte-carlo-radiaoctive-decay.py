@@ -1,5 +1,5 @@
 # Monte Carlo simulation of radioactive decay
-# Author: Tu Nombre
+# Author: Mario Carracedo Andres
 # Year: 2025
 # License: MIT
 # Description: Simulates radioactive decay of N nuclei over time
