@@ -55,7 +55,7 @@ for tiempo in range(tmaximo + 1):
         
         if rn < lambda_:  # decide decay event
             Nt = Nt - 1
-            energia = scalerandom(random.random(), 0, 10)  # energía aleatoria liberada
+            energia = scalerandom(random.random(), 0, 10)  # random energy released
             print(f"Tiempo {tiempo}: núcleo desintegrado, energía={energia:.2f}")
 
 #4. Graficamos
@@ -64,4 +64,6 @@ plt.title("Radioactive decay (Monte Carlo)")
 plt.xlabel("Time")
 plt.ylabel("Number of alive nuclei")
 plt.grid(True)
+
+plt.savefig("C:/Users/Mariolo5555555555555/Desktop/GitHub-proyectos - copia/monte-carlo-radioactive-decay/graphic.png")  # store the image in the curret diretory
 plt.show()
