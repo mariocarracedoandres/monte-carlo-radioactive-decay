@@ -8,6 +8,10 @@ Este proyecto simula el decaimiento radiactivo de `N` núcleos mediante un méto
 En cada paso temporal, cada núcleo tiene una probabilidad `λ` de desintegrarse.  
 Cuando ocurre una desintegración, se genera aleatoriamente la energía liberada y se registra el evento.
 
+Las energías asociadas a cada evento de desintegración se generan de forma aleatoria y no están ligadas a un isótopo concreto. Esta elección es deliberada y permite centrar la simulación en los aspectos estadísticos del decaimiento, manteniendo el modelo general y fácilmente extensible.
+
+La estructura del código facilita la sustitución del modelo de energía por distribuciones físicamente realistas si se requiere mayor nivel de detalle.
+
 Al final, se grafica el número de núcleos vivos en función del tiempo.
 
 ### Tecnologías utilizadas
@@ -35,3 +39,6 @@ N0 = 100
 ```bash
 pip install matplotlib
 ```
+
+### SUGERENCIA
+Se propone tomar un átomo y ver su decaimiento, de este modo ver las energías probables de los decaimientos.
