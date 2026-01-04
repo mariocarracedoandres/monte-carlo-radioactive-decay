@@ -39,6 +39,3 @@ N0 = 100
 ```bash
 pip install matplotlib
 ```
-
-### SUGERENCIA
-Se propone tomar un átomo y ver su decaimiento, de este modo ver las energías probables de los decaimientos.
