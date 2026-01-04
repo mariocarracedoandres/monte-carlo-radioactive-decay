@@ -65,5 +65,4 @@ plt.xlabel("Time")
 plt.ylabel("Number of alive nuclei")
 plt.grid(True)
 
-plt.savefig("C:/Users/Mariolo5555555555555/Desktop/GitHub-proyectos - copia/monte-carlo-radioactive-decay/graphic.png")  # store the image in the curret diretory
 plt.show()
