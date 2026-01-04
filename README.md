@@ -27,10 +27,11 @@ Ejemplo:
 ```python
 lambda_ = 0.1
 N0 = 100
-
+```
 
 ### Cómo ejecutar 
 1. Asegúrate de tener Python 3 instalado.
 2. Instala matplotlib si no lo tienes:
 ```bash
 pip install matplotlib
+```
